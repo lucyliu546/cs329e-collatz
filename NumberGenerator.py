@@ -3,8 +3,8 @@ import random
 def main():
 
     start = 0
-    end = 150
-    for i in range(0, 150):
-        i, j = random.randrange(0, 100, 1), random.randrange(0, 100, 1)
+    end = 1000000
+    for x in range(0, 999999, 20000):
+        i, j = (x, x + 20000)
         print(i, j)
 main()
