@@ -46,17 +46,17 @@ class TestCollatz (TestCase):
         self.assertEqual(j, 209)
 
 
-    # def test_read_4(self):
-    #     s = " "
-    #     i, j = collatz_read(s)
-    #     self.assertEqual(i, " " )
-    #     self.assertEqual(j, " ")
-    # 
-    # def test_read_5(self):
-    #     s = "3"
-    #     i, j = collatz_read(s)
-    #     self.assertEqual(i, 3 )
-    #     self.assertEqual(j, " ")
+    def test_read_4(self):
+        s = " "
+        i, j = collatz_read(s)
+        self.assertEqual(i, " " )
+        self.assertEqual(j, " ")
+
+    def test_read_5(self):
+        s = "3"
+        i, j = collatz_read(s)
+        self.assertEqual(i, 3 )
+        self.assertEqual(j, " ")
 
 
     # ----
