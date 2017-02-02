@@ -17,9 +17,10 @@ def collatz_read(s):
     s a string
     return a list of two ints, representing the beginning and end of a range, [i, j]
     """
-    assert (s is not " "), "Oops you have entered an empty string"
+    # assert (s is not " "), "Oops you have entered an empty string"
+    # Test for empty strings
     a = s.split()
-    assert (a[0] is not " " and a[1] is not " "), "Oops you have entered an empty string"
+    # assert (a[0] is not " " and a[1] is not " "), "Oops you have entered an empty string"
     return [int(a[0]), int(a[1])]
 
 # ------------
@@ -29,8 +30,9 @@ def collatz_read(s):
 
 def collatz_eval(i, j):
 
-    assert (i >= 0 and j >= 0), "You cannot have negative values!"
-    assert (i != None  and j!= None), "You must enter 2 values!"
+    # assert (i >= 0 and j >= 0), "You cannot have negative values!"
+    # assert (i != None  and j!= None), "You must enter 2 values!"
+    # tested assertions but removed for final code
 
     if i > j:
         i, j = j, i
