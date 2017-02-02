@@ -27,6 +27,8 @@ def collatz_read(s):
 
 def collatz_eval(i, j):
 
+    if i > j:
+        i, j = j, i
     max_length = 0
     for x in range(i, j+1):
         current_length = 1
