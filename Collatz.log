@@ -1,0 +1,141 @@
+commit d9bfe402993c0cf62f34a05b4284b5cf083a0a9f
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 17:32:29 2017 -0600
+
+    Created an eager cache instead of a lazy cache
+    
+    I figured out it’d be easier to have an eager cache
+
+commit 3d97b0dbdff464f0ce0968437eadd00737b0237a
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 16:03:44 2017 -0600
+
+    Shortened cache
+
+commit f76fb07d7aa08e9e4c1711b910f63e0c5818cccb
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 15:32:59 2017 -0600
+
+    Fixed cache lookup
+    
+    It is running now!
+
+commit b555dfece8963a257c39a1d7a6abf5122d5f2a98
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 14:40:55 2017 -0600
+
+    Need to revert work
+
+commit 8cdd39542b760b960f3ba534e54526d1a1043415
+Merge: 6e654ac 5e84469
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 14:39:37 2017 -0600
+
+    Merge branch 'master' into my-working-branch
+
+commit 6e654ac7586c30b999ddc39d86f42aba34da854b
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 11:04:18 2017 -0600
+
+    Removed failing unit tests
+    
+    don’t need them for final project
+
+commit d7cd34e7ea26331a6d2bda05dd4010d902ddfc53
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 01:36:19 2017 -0600
+
+    Uncommented out Test_read
+
+commit b5f58ca600a18c5f35f5274e89879e1ae13710fd
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 01:32:19 2017 -0600
+
+    Commented Stuff out
+    
+    To try and see why travis is not accepting my code
+
+commit 8ab077652e7b575661fe636e675acb0c7a7fad46
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 01:26:08 2017 -0600
+
+    Ran the functions in RunCollatz
+    
+    Generated Collatz.html
+
+commit a116f5f5e9ded0e5191a068c8ca9d5260d3266ba
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 01:17:42 2017 -0600
+
+    Added more unit tests
+    
+    Check for step 20. Check to make sure input is correct
+
+commit aca35b9a40d4540c375b9e7f99279debb1bedb35
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 00:34:10 2017 -0600
+
+    Ran Coverage
+    
+    Check to see if tests were good. Came back 100%
+
+commit 1095241bb4b273e31b6016a73488dd8b8ab03c86
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Thu Feb 2 00:12:55 2017 -0600
+
+    created an average of 3 unit tests for each function
+    
+    more unit tests!!!!
+
+commit 5e844692347eba95d558e5bc9366ce0c3e22c751
+Merge: 6562488 99d723a
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Wed Feb 1 23:15:11 2017 -0600
+
+    Merge branch 'my-working-branch'
+
+commit 99d723abd841483817281a19757633f21e1c81d0
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Wed Feb 1 23:13:16 2017 -0600
+
+    changed collatz.out
+    
+    changed them from the default numbers …
+
+commit ea94b9501b7b580c0da545e733f1a3d6775eefae
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Wed Feb 1 23:10:37 2017 -0600
+
+    deleted the last line from makefile
+    
+    to see if code will build
+
+commit 2aa5db875a5eaf6fb6ae0d6c30f896cf3d48f0a4
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Wed Feb 1 22:47:43 2017 -0600
+
+    Created  collatz eval and edited test cases
+
+commit f4468b0ba547f2ac571218ef0f96cc6e34922a36
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Fri Jan 27 11:38:10 2017 -0600
+
+    copied over part 3
+
+commit ea5e9f6e3e4ddd6be911fb91adad58a005612d9a
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Fri Jan 27 11:05:35 2017 -0600
+
+    copied over properly
+
+commit c4668d1b3ecd6f902bb3b6c5a2540551395fc16e
+Author: Lucy Liu <lucyliu546@gmail.com>
+Date:   Fri Jan 27 10:55:49 2017 -0600
+
+    copy files over from public repo
+
+commit 65624888c06173d6363661b8c9b8852467963b45
+Author: lucyliu546 <lucyliu546@gmail.com>
+Date:   Thu Jan 26 01:00:40 2017 -0600
+
+    Initial commit

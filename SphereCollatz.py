@@ -248,26 +248,26 @@ def collatz_eval(i, j):
         i,j = j, i
     max_length = 0
 
-    # checks if i, j exists in the cache
+
     if (i , j ) in cache:
             max_length = cache[(i, j)]
             return max_length
 
-    for x in range(i, j+1):
+    for x in range(i, j + 1):
         current_length = 1
 
         while x > 1:
-         if x in cache:
-             current_length += cache[x]
-             break
-         else:
-            if (x % 2) == 0:
-                x = (x // 2)
+            if x in cache:
+                current_length += cache[x]
+                break
             else:
-                x = (3 * x) + 1
-         current_length += 1
+                if (x % 2) == 0:
+                    x = (x // 2)
+                else:
+                    x = (3 * x) + 1
+            current_length += 1
         if x not in cache:
-                cache[x] = current_length
+            cache[x] = current_length
         if current_length > max_length:
             max_length = current_length
     return max_length
